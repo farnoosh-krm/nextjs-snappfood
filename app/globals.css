@@ -2,6 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer {
+  @font-face {
+    font-family: "Vazirmatn-Regular";
+    src: url("../assets/font/Vazirmatn-Regular.ttf");
+  }
+
+  @font-face {
+    font-family: "Vazirmatn-Medium";
+    src: url("../assets/font/Vazirmatn-Medium.ttf");
+  }
+
+  @font-face {
+    font-family: "Vazirmatn-SemiBold";
+    src: url("../assets/font/Vazirmatn-SemiBold.ttf");
+  }
+
+  @font-face {
+    font-family: "Vazirmatn-Bold";
+    src: url("../assets/font/Vazirmatn-Bold.ttf");
+  }
+
+  @font-face {
+    font-family: "Vazirmatn-ExtraBold";
+    src: url("../assets/font/Vazirmatn-ExtraBold.ttf");
+  }
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -17,7 +44,7 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Vazirmatn-Regular, Helvetica, sans-serif;
 }
 
 @layer utilities {
