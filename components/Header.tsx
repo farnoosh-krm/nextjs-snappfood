@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import logo from "../assets/images/images-home/logo.svg";
+import logo from "../public/images/images-home/logo.svg";
 import { MdOutlineShoppingBag } from "react-icons/md";
 import Link from "next/link";
 
