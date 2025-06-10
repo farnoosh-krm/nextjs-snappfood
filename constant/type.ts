@@ -1,3 +1,5 @@
+import type { StaticImageData } from 'next/image';
+
 export type restaurantType={
     id:number;
     name:string;
@@ -16,4 +18,10 @@ export type restaurantType={
     }
     otherCats:string[];
     catId:number[];
+}
+
+export type DownloadAppButtonProps={
+    src:StaticImageData;
+     alt:string;
+     href?:string;
 }

@@ -13,7 +13,7 @@ const SwiperNavButtons = () => {
         aria-label="اسلاید قبلی"
         className="rounded-full w-12 h-12 bg-white shadow-md hover:shadow-lg hover:scale-105 transition-all duration-200 flex items-center justify-center"
       >
-        <IoIosArrowForward size={"1.5em"} color="#ff0045" />
+        <IoIosArrowForward size={"1.5em"} color="#ff00a6" />
       </button>
 
       <button
@@ -21,7 +21,7 @@ const SwiperNavButtons = () => {
         aria-label="اسلاید بعدی"
         className="rounded-full w-12 h-12 bg-white shadow-md hover:shadow-lg hover:scale-105 transition-all duration-200 flex items-center justify-center"
       >
-        <IoIosArrowBack size={"1.5em"} color="#ff0045" />
+        <IoIosArrowBack size={"1.5em"} color="#ff00a6" />
       </button>
     </div>
   );

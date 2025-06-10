@@ -21,7 +21,7 @@ const ContactUs = () => {
             </button>
           </div>
         </div>
-        <div className="w-full md:w-1/2 md:flex justify-end">
+        <div className="hidden md:w-1/2 md:flex justify-end">
           <Image src={shopPic} alt="shop pic" width={350} height={350} />
         </div>
       </div>
