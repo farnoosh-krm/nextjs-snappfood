@@ -11,7 +11,7 @@ import SwiperNextButton from "./SwiperNextButton";
 
 const Slider = () => {
   return (
-    <div className="w-full max-w-7xl flex flex-wrap mt-16 bg-[#f0efe7] py-6 px-3">
+    <div className="w-full max-w-7xl flex flex-wrap mt-16  py-6 px-3">
       <div className="flex w-full font-bold">{"تازه‌ها در اسنپ‌فود"}</div>
       <div className="flex flex-wrap p-4 w-full">
         <Swiper

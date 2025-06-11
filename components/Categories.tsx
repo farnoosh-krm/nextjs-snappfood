@@ -6,7 +6,7 @@ import { MdOutlineArrowBackIosNew } from "react-icons/md";
 
 const Categories = () => {
   return (
-    <div className="w-full max-w-7xl flex flex-wrap mt-16 bg-[#f0efe7] py-6 px-3">
+    <div className="w-full max-w-7xl flex flex-wrap mt-16 bg-[#fcfaf7] py-6 px-3">
       <div className="w-full font-bold">{"دسته‌بندی‌ها"}</div>
       <div className="flex flex-wrap w-full py-4">
         {DATABASE.cats.map((cat) => (

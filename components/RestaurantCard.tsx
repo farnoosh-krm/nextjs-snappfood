@@ -6,8 +6,9 @@ import { convertToPersian } from "@/src/utils/convertToPersian";
 
 const RestaurantCard = ({ restaurant }: { restaurant: restaurantType }) => {
   return (
-    <div className="flex flex-wrap w-full shadow-md hover:shadow-xl ">
-      <div className="relative w-full h-36 rounded-t-xl">
+    <div className="flex flex-wrap w-full shadow-md hover:shadow-xl rounded-xl overflow-hidden border-2 border-gray-200">
+      {/* <div className="flex flex-wrap w-full shadow-md hover:shadow-xl "> */}
+      <div className="relative w-full h-36 rounded-t-xl ">
         <Image
           src={restaurant.image}
           alt={restaurant.name}
@@ -22,7 +23,7 @@ const RestaurantCard = ({ restaurant }: { restaurant: restaurantType }) => {
       </div>
 
       <div className="flex flex-col justify-center items-center w-full -mt-8 z-40">
-        <div className="  h-20 w-20 border-4 rounded-xl border-gray-300 mt-">
+        <div className="  h-16 w-16 border-4 rounded-xl border-gray-300 mt-">
           <Image
             src={restaurant.logo}
             alt={restaurant.name}
