@@ -19,20 +19,27 @@ A Snappfood-inspired food delivery frontend built with modern technologies:
 ## 🏗️ Project Structure
 
 app/
+
 ├── layout.tsx
+
 ├── page.tsx # Homepage
 
 components/
+
 ├── common/ # Reusable UI components
 
 src/
+
 ├── data/
+
 │ └── data.ts # Foods data
 
 public/
+
 ├── images/ # Food/logo assets
 
 utils/
+
 ├── convertToPersian.ts # Number localization
 
 ## 🚀 Quick Start
