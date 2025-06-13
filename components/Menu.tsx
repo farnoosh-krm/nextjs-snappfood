@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 import { convertToPersian } from "@/src/utils/convertToPersian";
 
-const Menu = ({ restaurantId }) => {
+const Menu = ({ restaurantId }: { restaurantId: number }) => {
   const foods = DATABASE.foods.filter((food) => food.id !== +restaurantId);
   return (
     <div className="flex flex-wrap w-full md:w-2/4">

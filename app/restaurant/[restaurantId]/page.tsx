@@ -5,7 +5,7 @@ import { convertToPersian } from "@/src/utils/convertToPersian";
 import Image from "next/image";
 
 interface Props {
-  params: Promise<{ restaurantId: string }>;
+  params: Promise<{ restaurantId: number }>;
 }
 
 const restaurantPage = async ({ params }: Props) => {
